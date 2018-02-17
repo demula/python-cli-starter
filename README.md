@@ -40,6 +40,15 @@ Tests are located in **** and run with nose2
 make test
 ```
 
+## Checking code quality
+
+Coverage and static quality analysis are run with:
+
+```sh
+make test_coverage
+make check
+```
+
 ## Generating the documentation
 
 Using sphinx to generate html documentation:

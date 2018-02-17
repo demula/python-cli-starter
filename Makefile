@@ -10,6 +10,9 @@ test_coverage:
 install:
 	pip3 install --editable .
 
+check:
+	pylint app
+
 generate_docs:
 	$(MAKE) -C docs html
 
