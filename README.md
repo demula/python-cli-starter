@@ -1,6 +1,6 @@
 # python-cli-starter
-Starter project for python CLI utils
 
+Starter project for python CLI utils
 
 ## Init project
 
@@ -17,7 +17,6 @@ virtualenv venv
 make init
 ```
 
-
 ## Developing
 
 To manually test the cli util:
@@ -33,7 +32,6 @@ app_cli --help
 deactivate
 ```
 
-
 ## Testing
 
 Tests are located in **** and run with nose2
@@ -42,11 +40,13 @@ Tests are located in **** and run with nose2
 make test
 ```
 
-
 ## Generating the documentation
 
-Using sphinx to generate html documentation
+Using sphinx to generate html documentation:
 
+```sh
+make generate_docs
+```
 
 ## Updating requirements file and setup.py file
 
@@ -55,7 +55,6 @@ To override the requirements.txt with the current venv use
 ```sh
 make update_requirements
 ```
-
 
 ## Packing app for distribution
 
