@@ -7,4 +7,10 @@ test:
 install:
 	pip3 install --editable .
 
+generate_docs:
+	$(MAKE) -C docs html
+
+update_requirements:
+	pip freeze > requirements.txt
+
 .PHONY: init test

@@ -12,12 +12,14 @@ except ImportError:
 
 
 def validate_count(ctx, param, value):
+    """Validate count of parameters"""
     if value < 0 or value % 2 != 0:
         raise click.BadParameter('Should be a positive, even integer.')
     return value
 
 
 class URL(click.ParamType):
+    """Command line URL parameter type"""
     name = 'url'
 
     def convert(self, value, param, ctx):

@@ -50,7 +50,11 @@ Using sphinx to generate html documentation
 
 ## Updating requirements file and setup.py file
 
-TODO
+To override the requirements.txt with the current venv use
+
+```sh
+make update_requirements
+```
 
 
 ## Packing app for distribution
