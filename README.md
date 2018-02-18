@@ -34,7 +34,7 @@ deactivate
 
 ## Testing
 
-Tests are located in **** and run with nose2
+Tests are located in `tests/` and run with nose2
 
 ```sh
 make test
