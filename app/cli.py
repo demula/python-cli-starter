@@ -1,6 +1,7 @@
 """This module is copied directly from the examples of click.
 
-Please visit https://github.com/pallets/click for more examples on how to use click.
+Please visit https://github.com/pallets/click for more examples on how to use
+click.
 """
 
 import click

@@ -11,7 +11,7 @@ install:
 	pip3 install --editable .
 
 check:
-	pylint app
+	pylint app; pycodestyle app
 
 generate_docs:
 	$(MAKE) -C docs html
