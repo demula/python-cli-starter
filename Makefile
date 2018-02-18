@@ -19,4 +19,7 @@ generate_docs:
 update_requirements:
 	pip freeze > requirements.txt
 
+dist:
+	python setup.py sdist bdist_wheel
+
 .PHONY: init test

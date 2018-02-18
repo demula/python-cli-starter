@@ -67,4 +67,8 @@ make update_requirements
 
 ## Packing app for distribution
 
-TODO
+Package python app as .tar.gz and wheel format
+
+```sh
+make dist
+```
