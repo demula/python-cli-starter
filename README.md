@@ -9,11 +9,7 @@ Starter project for python CLI utils
 git clone https://github.com/demula/python-cli-starter.git
 cd python-cli-starter
 
-# Create a virtual environment to not mess up with your current python installation
-virtualenv venv
-. venv/bin/activate
-
-# Install required libraries for development
+# Create a virtual environment and install required libraries for development
 make init
 ```
 
@@ -22,6 +18,9 @@ make init
 To manually test the cli util:
 
 ```sh
+# Activate virtual env
+make start_dev
+
 # Install the current code in your venv
 make install
 
@@ -29,7 +28,7 @@ make install
 app_cli --help
 
 # Remember to get out of the venv when you're done developing for the day
-deactivate
+make stop_dev
 ```
 
 ## Testing
