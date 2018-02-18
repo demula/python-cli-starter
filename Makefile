@@ -1,5 +1,11 @@
 init:
-	pip3 install -r requirements.txt
+	virtualenv venv && pip3 install -r requirements.txt
+
+start_dev:
+	. venv/bin/activate
+
+stop_dev:
+	deactivate
 
 test:
 	nose2 -c unittest.cfg
