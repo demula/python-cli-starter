@@ -10,7 +10,7 @@ coverage==4.5.1
 cycler==0.10.0
 docutils==0.14
 enum34==1.1.6
-html5lib==0.9999999
+html5lib==0.999999999
 idna==2.6
 imagesize==1.0.0
 isort==4.3.4
